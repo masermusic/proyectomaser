@@ -19,7 +19,7 @@ a {
 .h1__index {
     justify-content: center;
     align-items: center;
-    
+
 }
 
 .h1__index a {
@@ -28,8 +28,9 @@ a {
 
 .bienvenidos__index {
     background-color: #5c5b5b;
-    border-radius: 10px;
-    padding: 4px;
+    border-radius: 1rem;
+    padding: 0.2rem;
+
 }
 
 header {
@@ -56,7 +57,6 @@ header {
     align-items: center;
     gap: 2rem;
     flex-wrap: wrap;
-    letter-spacing: 1px;
 }
 
 .menu li {
@@ -149,6 +149,7 @@ p {
     text-align: center;
     display: flex;
 }
+
 .novedades__ {
     height: 30px;
     margin: 0.5rem;
@@ -180,8 +181,9 @@ h1 {
     position: relative;
     justify-content: right;
     margin-top: 2rem;
-    
+
 }
+
 .imagen-sobremi2 {
     position: relative;
     max-width: 100%;
@@ -205,8 +207,10 @@ h1 {
 h2 {
     color: #D2B66E;
 }
+
 h3 {
     color: #D2B66E;
+    font-size: medium;
 }
 
 .sobre-mi {
@@ -224,7 +228,7 @@ body {
     text-align: center;
     background-color: #303030;
     padding: 1rem;
-    
+
 }
 
 .escucha-musica {
@@ -272,7 +276,7 @@ article {
     align-items: center;
     gap: 2rem;
     margin-top: 2rem;
-    padding-block: 1rem;
+    padding-block: 1.2rem;
     background-color: black;
 }
 
@@ -296,6 +300,29 @@ article {
 
     .texto-sobremi {
         grid-template-columns: 1fr;
+    }
+
+    h3 {
+        font-size: small;
+    }
+
+    .body-index {
+        background-color: grey;
+        background-image: url("./../imagenes/maser.JPG");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        position: relative;
+        background-position-y: 70px;
+        min-height: 100vh;
+    }
+
+    .bienvenidos__index {
+        background-color: #5c5b5b;
+        border-radius: 1rem;
+        position: absolute;
+        margin: 1rem;
+
     }
 
 }
