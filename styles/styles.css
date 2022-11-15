@@ -7,6 +7,11 @@
     font-family: 'Rubik', sans-serif;
 }
 
+*::selection {
+    background-color: black;
+    color: #D2B66E;
+}
+
 a {
     text-decoration: none;
 }
@@ -14,10 +19,17 @@ a {
 .h1__index {
     justify-content: center;
     align-items: center;
+    
 }
 
 .h1__index a {
     color: #D2B66E;
+}
+
+.bienvenidos__index {
+    background-color: #5c5b5b;
+    border-radius: 10px;
+    padding: 4px;
 }
 
 header {
@@ -42,8 +54,9 @@ header {
     padding: 1rem;
     display: flex;
     align-items: center;
-    gap: 1rem;
+    gap: 2rem;
     flex-wrap: wrap;
+    letter-spacing: 1px;
 }
 
 .menu li {
@@ -90,7 +103,9 @@ p {
     flex-direction: column;
     justify-content: center;
     min-height: 80vh;
-    width: 50%;
+    width: 30%;
+
+
 }
 
 .main-index p {
@@ -124,11 +139,22 @@ p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 0.8rem;
+    gap: 15px;
 }
 
 .form input {
     height: 30px;
     margin: 0.5rem;
+    text-align: center;
+    display: flex;
+}
+.novedades__ {
+    height: 30px;
+    margin: 0.5rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
 }
 
 .redes-sociales li {
@@ -153,51 +179,58 @@ h1 {
     text-align: center;
     position: relative;
     justify-content: right;
+    margin-top: 2rem;
+    
+}
+.imagen-sobremi2 {
+    position: relative;
+    max-width: 100%;
+    border-radius: 1rem;
+    width: 80%;
 }
 
 .imagen-sobremi {
     position: relative;
+    max-width: 100%;
+    border-radius: 1rem;
+    width: 90%;
 }
 
 .contacto-h {
     text-align: center;
     background-color: #303030;
+    padding: 1rem;
 }
 
 h2 {
+    color: #D2B66E;
+}
+h3 {
     color: #D2B66E;
 }
 
 .sobre-mi {
     text-align: center;
     background-color: #303030;
+    padding: 1rem;
 }
 
-.body-bio {
-    background-color: #5c5b5b;
-}
 
-.body-contacto {
-    background-color: #5c5b5b;
-}
-
-.body-musica {
-    background-color: #5c5b5b;
-}
-
-.body-galeria {
+body {
     background-color: #5c5b5b;
 }
 
 .galeria-fotos {
     text-align: center;
     background-color: #303030;
+    padding: 1rem;
+    
 }
 
 .escucha-musica {
     text-align: center;
     background-color: #303030;
-    padding-block: 1rem;
+    padding: 1rem;
 }
 
 article {
@@ -232,9 +265,6 @@ article {
     grid-template-columns: 1.5fr 1fr;
 }
 
-.imagen-sobremi {
-    max-width: 100%;
-}
 
 .footer__galeria {
     display: flex;
