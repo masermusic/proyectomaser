@@ -1,0 +1,45 @@
+.bienvenidos__index {
+    background-color: #5c5b5b;
+    border-radius: 1rem;
+    padding: 0.2rem;
+
+}
+
+.sobre-mi {
+    text-align: center;
+    background-color: #303030;
+    padding: 1rem;
+
+    
+
+    .texto-sobremi {
+        text-align: center;
+        position: relative;
+        justify-content: right;
+        margin-top: 2rem;
+        display: grid;
+        grid-template-columns: 1.5fr 1fr;
+        align-items: center;
+        
+    }
+
+    
+    
+}
+.textobio {
+    padding: 2rem;
+    background-color: #D2B66E;
+    justify-content: center;
+    margin: 10px 10px 10px 10px;
+
+}
+
+.escucha-musica {
+    text-align: center;
+    background-color: #303030;
+    padding: 1rem;
+}
+
+.musica-section {
+    padding-block: 2rem;
+}

@@ -1,0 +1,17 @@
+.footer__galeria {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 2rem;
+    padding-block: 1.2rem;
+    background-color: black;
+
+    a {
+        color: #D2B66E;
+    }
+
+    h2 {
+        margin-bottom: 0;
+    }
+}

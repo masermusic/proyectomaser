@@ -1,0 +1,27 @@
+@media (max-width:700px) {
+    .menu__galeria {
+        grid-template-columns: 1fr;
+    }
+
+
+    .imagenlogo {
+        grid-column: 1 / 2;
+    }
+
+    .texto-sobremi {
+        grid-template-columns: 1fr;
+    }
+
+    h3 {
+        font-size: small;
+    }
+
+       .bienvenidos__index {
+        background-color: #5c5b5b;
+        border-radius: 1rem;
+        position: absolute;
+        margin: 1rem;
+
+    }
+
+}

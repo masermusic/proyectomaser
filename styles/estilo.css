@@ -12,4 +12,239 @@
 *::selection {
   background-color: black;
   color: #D2B66E;
+}
+
+header {
+  background-color: black;
+}
+header a {
+  text-decoration: none;
+}
+header .contenedor {
+  padding: 0 1.5rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+header .contenedor .nav-menu {
+  background-color: black;
+  box-shadow: rgba(201, 149, 18, 0.7803921569);
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+header .contenedor .nav-menu .h1__index {
+  justify-content: center;
+  align-items: center;
+}
+header .contenedor .nav-menu .h1__index a {
+  color: #D2B66E;
+}
+header .contenedor .nav-menu .menu {
+  color: white;
+  list-style-type: none;
+  display: flex;
+  z-index: 1;
+  flex-wrap: wrap;
+}
+header .contenedor .nav-menu .menu li {
+  margin-right: 5px;
+  border: 10px;
+  border-color: goldenrod;
+  padding: 5px;
+}
+header .contenedor .nav-menu .menu li a {
+  color: goldenrod;
+}
+header .contenedor .nav-menu .menu .menu-active {
+  -webkit-text-decoration: underline double;
+          text-decoration: underline double;
+}
+
+.body-index {
+  background-color: grey;
+  background-image: url("./../imagenes/maser.JPG");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  position: relative;
+  background-position-y: 70px;
+  min-height: 100vh;
+}
+.body-index .main-index {
+  padding: 3rem;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 80vh;
+  width: 30%;
+}
+.body-index .main-index p {
+  margin: 0;
+  background: transparent;
+  color: white;
+}
+
+.galeria-fotos {
+  text-align: center;
+  background-color: #303030;
+  padding: 1rem;
+}
+
+.menu__galeria {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+.menu__galeria > div > img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.imagenlogo {
+  grid-column: 1/3;
+}
+
+.imagen-sobremi2 {
+  position: relative;
+  max-width: 100%;
+  border-radius: 1rem;
+  width: 80%;
+}
+
+.imagen-sobremi {
+  position: relative;
+  max-width: 100%;
+  border-radius: 1rem;
+  width: 90%;
+}
+
+h1 {
+  color: #D2B66E;
+}
+
+h2 {
+  color: #D2B66E;
+}
+
+h3 {
+  color: #D2B66E;
+  font-size: medium;
+}
+
+body {
+  background-color: #5c5b5b;
+}
+
+.bienvenidos__index {
+  background-color: #5c5b5b;
+  border-radius: 1rem;
+  padding: 0.2rem;
+}
+
+.sobre-mi {
+  text-align: center;
+  background-color: #303030;
+  padding: 1rem;
+}
+.sobre-mi .texto-sobremi {
+  text-align: center;
+  position: relative;
+  justify-content: right;
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  align-items: center;
+}
+
+.textobio {
+  padding: 2rem;
+  background-color: #D2B66E;
+  justify-content: center;
+  margin: 10px 10px 10px 10px;
+}
+
+.escucha-musica {
+  text-align: center;
+  background-color: #303030;
+  padding: 1rem;
+}
+
+.musica-section {
+  padding-block: 2rem;
+}
+
+.contacto-h {
+  text-align: center;
+  background-color: #303030;
+  padding: 1rem;
+}
+
+.form {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0.8rem;
+  gap: 15px;
+}
+.form .novedades__ {
+  height: 30px;
+  margin: 0.5rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+.form label {
+  color: white;
+}
+.form input {
+  height: 30px;
+  margin: 0.5rem;
+  text-align: center;
+  display: flex;
+}
+
+.footer__galeria {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 2rem;
+  padding-block: 1.2rem;
+  background-color: black;
+}
+.footer__galeria a {
+  color: #D2B66E;
+}
+.footer__galeria h2 {
+  margin-bottom: 0;
+}
+
+@media (max-width: 700px) {
+  .menu__galeria {
+    grid-template-columns: 1fr;
+  }
+  .imagenlogo {
+    grid-column: 1/2;
+  }
+  .texto-sobremi {
+    grid-template-columns: 1fr;
+  }
+  h3 {
+    font-size: small;
+  }
+  .bienvenidos__index {
+    background-color: #5c5b5b;
+    border-radius: 1rem;
+    position: absolute;
+    margin: 1rem;
+  }
 }/*# sourceMappingURL=estilo.css.map */
