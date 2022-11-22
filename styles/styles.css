@@ -385,6 +385,9 @@ article {
         border-radius: 1rem;
         position: absolute;
         margin: 1rem;
+        margin-right: 5rem;
+        text-align: center center;
+        justify-content: center;
 
     }
 
