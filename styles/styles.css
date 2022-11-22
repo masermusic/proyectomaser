@@ -29,14 +29,15 @@ a {
 }
 
 .bienvenidos__index {
-    background-color: #5c5b5b;
+    background-color: #000000;
     border-radius: 1rem;
-    padding: 0.2rem;
+    padding: 0.25rem;
 
 }
 
 header {
-    background-color: black;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 23%, rgba(119, 87, 27, 1) 75%, rgba(252, 169, 1, 1) 100%, rgba(191, 128, 0, 1) 100%);
 }
 
 .menu {
@@ -59,6 +60,8 @@ header {
     align-items: center;
     gap: 2rem;
     flex-wrap: wrap;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 23%, rgba(119, 87, 27, 1) 75%, rgba(252, 169, 1, 1) 100%, rgba(191, 128, 0, 1) 100%);
 }
 
 .menu li {
@@ -131,6 +134,8 @@ p {
     padding: 0 1.5rem;
     max-width: 1000px;
     margin: 0 auto;
+
+
 }
 
 .form {
@@ -174,6 +179,7 @@ label {
 
 h1 {
     color: #D2B66E;
+    
 
 }
 
@@ -269,13 +275,14 @@ article {
 .textobio {
     padding: 2rem;
     transition: transform 1s;
-    
+
 }
 
 .textobio:hover {
     transform: scale(1.1) translateY(-15px);
     cursor: pointer;
 }
+
 .texto-sobremi {
     display: grid;
     grid-template-columns: 1.5fr 1fr;
@@ -284,38 +291,45 @@ article {
 .imagen1 {
     transition: transform 2s;
 }
+
 .imagen1:hover {
-    transform: scale(1.1) translateX(-1px); 
+    transform: scale(1.1) translateX(-1px);
     cursor: pointer;
 }
 
 .imagen2 {
     transition: transform 2s;
 }
+
 .imagen2:hover {
-    transform: scale(1.1) translateX(-1px); 
+    transform: scale(1.1) translateX(-1px);
     cursor: pointer;
 }
+
 .imagen3 {
     transition: transform 2s;
 }
+
 .imagen3:hover {
-    transform: scale(1.1) translateX(-1px); 
+    transform: scale(1.1) translateX(-1px);
     cursor: pointer;
 }
 
 .imagen4 {
     transition: transform 2s;
 }
+
 .imagen4:hover {
-    transform: scale(1.1) translateX(-1px); 
+    transform: scale(1.1) translateX(-1px);
     cursor: pointer;
 }
+
 .imagenlogo {
     transition: transform 2s;
 }
+
 .imagenlogo:hover {
-    transform: scale(1.1) translateX(-1px); 
+    transform: scale(1.1) translateX(-1px);
     cursor: pointer;
 }
 
@@ -367,7 +381,7 @@ article {
     }
 
     .bienvenidos__index {
-        background-color: #5c5b5b;
+        background-color: #000000;
         border-radius: 1rem;
         position: absolute;
         margin: 1rem;
