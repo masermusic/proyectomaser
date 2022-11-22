@@ -268,13 +268,56 @@ article {
 
 .textobio {
     padding: 2rem;
+    transition: transform 1s;
+    
 }
 
+.textobio:hover {
+    transform: scale(1.1) translateY(-15px);
+    cursor: pointer;
+}
 .texto-sobremi {
     display: grid;
     grid-template-columns: 1.5fr 1fr;
 }
 
+.imagen1 {
+    transition: transform 2s;
+}
+.imagen1:hover {
+    transform: scale(1.1) translateX(-1px); 
+    cursor: pointer;
+}
+
+.imagen2 {
+    transition: transform 2s;
+}
+.imagen2:hover {
+    transform: scale(1.1) translateX(-1px); 
+    cursor: pointer;
+}
+.imagen3 {
+    transition: transform 2s;
+}
+.imagen3:hover {
+    transform: scale(1.1) translateX(-1px); 
+    cursor: pointer;
+}
+
+.imagen4 {
+    transition: transform 2s;
+}
+.imagen4:hover {
+    transform: scale(1.1) translateX(-1px); 
+    cursor: pointer;
+}
+.imagenlogo {
+    transition: transform 2s;
+}
+.imagenlogo:hover {
+    transform: scale(1.1) translateX(-1px); 
+    cursor: pointer;
+}
 
 .footer__galeria {
     display: flex;
