@@ -388,7 +388,11 @@ article {
         margin-right: 5rem;
         text-align: center center;
         justify-content: center;
-
+        
+    }
+    h2 {
+        text-align: center;
+        justify-content: center;
     }
 
 }
